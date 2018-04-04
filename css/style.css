@@ -1,0 +1,381 @@
+
+@import url('https://fonts.googleapis.com/css?family=Courgette|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Courgette', cursive;*/
+
+@import url('font-awesome.css');
+@import url('animate.css');
+@import url('owl.css');
+/*** 
+
+====================================================================
+	Reset
+====================================================================
+
+ ***/
+* {
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+}
+
+.navbar-default{
+	padding: 12px;
+	background-color:transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar-default .navbar-nav>li>a {
+	color:#26640B;
+	font-weight:bold;
+	letter-spacing:0.1em;
+	font-size: 16px;
+}
+.slider-text{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 300px;
+	height: 600px;
+}
+.main-header {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+    background: #ffffff;
+}
+.parallax img{
+		text-align: center;
+		width: 95%;
+	}
+@media only screen and (max-width: 760px){
+	.parallax img{
+		text-align: center;
+		width: 85%;
+	}
+	.logo img{
+		width: 80%;
+		position: relative;
+		top: 10px;
+	}
+    .navbar-default .navbar-nav>li>a {
+    text-align: center;
+    }
+    .navbar-default .navbar-nav{
+        background-color: #ffffff;
+    }
+
+}
+@media only screen and (max-width: 960px){
+	.parallax img{
+		text-align: center;
+		width: 100%;
+		position: relative;
+		top: 100px;
+	}
+}
+.jws_theme_footer {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-image: url(http://preschoolsupport.jwsuperthemes.com/wp-content/themes/preschool/assets/images/bg-footer.jpg);
+}
+h5{
+	color: #fff;
+}
+.textwidget ul,li{
+	list-style: none;
+	color:#ccc;
+	padding: 5px;
+
+}
+.textwidget ul,li>a{
+	color:#ccc;
+	
+}
+.quick ul li {
+	list-style: none;
+
+}
+.socials li{
+	list-style: none;
+	padding: 2px;
+	display: inline-block;
+}
+.socials li a{
+	color: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+}
+.line img{
+	width: 100%;
+	position: relative;
+	top: -10px;
+	
+}
+.line{
+	background-color: #333333;
+}
+.footer-bottom .copyright {
+    position: relative;
+    line-height: 20px;
+    padding: 15px 0px;
+    background-color: #333333;
+}
+.text-center {
+    text-align: center;
+    margin-top: -5px;
+    color: #fff;
+}
+.text-center a{
+	cursor: pointer;
+	color: #99cc00;
+}
+.text-center a:hover{
+	color: #000080;
+}
+/*** 
+
+====================================================================
+   About Us
+====================================================================
+
+ ***/
+.vc_custom_1465788797648 {
+    padding-top: 60px !important;
+    padding-bottom: 18px !important;
+    width: 100% !important;
+    background-color: #59b3b8 !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.vc_row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.jws-custom-1 .jws_service_box {
+    max-width: 390px;
+    margin: 0 auto;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.row > .vc_column_container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.vc_custom_1461721311410 {
+    padding-top: 35px !important;
+    padding-right: 30px !important;
+    padding-bottom: 35px !important;
+    padding-left: 20px !important;
+    float: left;
+    background-image: url(http://preschoolsupport.jwsuperthemes.com/wp-content/uploads/2015/09/bg-service.png?id=2830) !important;
+}
+.tb-service-wrap .tb-service {
+    position: relative;
+    margin: 0 auto 33px;
+}
+
+.text-center {
+    text-align: center;
+}
+.tb-service-wrap .tb-service.text-center .tb-image>img {
+    margin: 0 auto;
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+}
+.tb-service-wrap .tb-service .tb-title {
+    color: #222222;
+    line-height: 18px;
+    margin-bottom: 18px;
+    padding-top: 20px;
+    position: relative;
+    font-weight: bold;
+}
+p {
+    margin-bottom: 15px !important;
+    color: black;
+}
+.vc_custom_1461721320812 {
+    padding-top: 35px !important;
+    float: right;
+    padding-right: 30px !important;
+    padding-bottom: 35px !important;
+    padding-left: 20px !important;
+    background-image: url(http://preschoolsupport.jwsuperthemes.com/wp-content/uploads/2015/09/bg-service.png?id=2830) !important;
+}
+.vc_custom_1461721330241 {
+    padding-top: 35px !important;
+    padding-right: 30px !important;
+    padding-bottom: 35px !important;
+    padding-left: 20px !important;
+    background-image: url(http://preschoolsupport.jwsuperthemes.com/wp-content/uploads/2015/09/bg-service.png?id=2830) !important;
+}
+@media (min-width: 768px){
+.vc_col-sm-4 {
+    width: 33.33333333%;
+}}
+@media (max-width: 1199px){
+.tb-service-wrap .tb-service {
+    text-align: center;
+}}
+@media (max-width: 760px){
+	.vc_custom_1461721320812{
+		float: none;
+	}
+	.vc_custom_1461721311410{
+		float: none;
+	}
+}
+/*** 
+
+====================================================================
+  Our teachers
+====================================================================
+
+ ***/
+#teachers img{
+	border-radius: 0px;
+	width: 100%;
+    filter: grayscale(0%);
+    padding: 0px;
+}
+#teachers img:hover{
+    filter: grayscale(100%);
+}
+.tb-teacher-content-inner .tb-position {
+    color: #1faceb;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 13px !important;
+    font-family: dosis;
+}
+.teach-all{
+	padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    background-color: #eeeeee !important;
+}
+.div-all{
+	box-shadow: none;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+.jws-title {
+    text-align: center;
+   margin-top: -15px;
+}
+.jws-title .jws-title-underline {
+    margin-bottom: 12px !important;
+    font-size: 32px;
+    font-weight: bold;
+}
+.jws-title .icon-color i {
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.jws-title .tb-content {
+    margin-top: 15px;
+}
+/*** 
+
+====================================================================
+   Our Classes
+====================================================================
+
+ ***/
+.class-all {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    background-color: #ffffff !important;
+}
+.class-all h1{
+    line-height: 40px;
+    font-weight: 700;
+    font-style: normal;
+    color: #222222;
+    font-size: 46px;
+    opacity: 1;
+    visibility: visible
+}
+.inner,.inner-box .text{
+	color: #000;
+}
+#classes img {
+    border-radius: 20px;
+    width: 100%;
+    filter: grayscale(0%);
+    padding: 0px;
+}
+.content-column .inner h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+.content-column .inner .text {
+    color: #000;
+    text-align: justify-all;
+    line-height: 2;
+    text-align: center;
+}
+.btn-style-one {
+    position: relative;
+    padding: 12px 40px;
+    line-height: 24px;text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px 0 6px 0;
+    background: #ffca00;
+    border: 2px solid #ffca00;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+}
+#gap {
+    margin-top: 35px;
+}
+.news-style-two{
+	padding-top: 30px;
+}
